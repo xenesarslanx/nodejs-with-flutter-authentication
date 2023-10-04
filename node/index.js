@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(authRouter);
 
 const DB =
-  "mongodb+srv://enesarslan1664:Ea176722.@cluster0.sdubnnp.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.sdubnnp.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(DB)
